@@ -14,7 +14,7 @@ namespace SalesWebMVC.Models
 
       // associa vendedor com departamento
       public Department Department { get; set; }
-
+      public int DepartmentId { get; set; }
       // associa vendas com vendedor
       public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
